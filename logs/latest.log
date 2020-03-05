@@ -1,0 +1,53 @@
+[21:17:30] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:17:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:30] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:17:30] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:17:31] [Server thread/INFO]: Starting minecraft server version 20w10a
+[21:17:31] [Server thread/INFO]: Loading properties
+[21:17:31] [Server thread/INFO]: Default game type: SURVIVAL
+[21:17:31] [Server thread/INFO]: Generating keypair
+[21:17:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_241]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_241]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_241]
+	at xg$2.run(SourceFile:110) [server%20(3).jar:?]
+[21:17:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:17:31] [Server thread/INFO]: Using default channel type
+[21:17:32] [Server thread/INFO]: Preparing level "world"
+[21:17:32] [Server thread/INFO]: Reloading ResourceManager: Default
+[21:17:33] [Server thread/INFO]: Loaded 6 recipes
+[21:17:33] [Server thread/INFO]: Loaded 858 advancements
+[21:17:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:17:45] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:45] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:45] [Server thread/INFO]: Preparing spawn area: 0%
+[21:17:47] [Server thread/INFO]: Time elapsed: 3032 ms
+[21:17:47] [Server thread/INFO]: Done (15.447s)! For help, type "help"
+[21:18:26] [User Authenticator #1/INFO]: UUID of player slayerkingston is e98a4385-1535-45b4-81d1-beb227f167d6
+[21:18:26] [Server thread/INFO]: slayerkingston[/192.168.1.78:50031] logged in with entity id 84 at (-420.53180320012916, 70.0, 540.6944515859369)
+[21:18:26] [Server thread/INFO]: slayerkingston joined the game
+[21:24:17] [Server thread/INFO]: slayerkingston lost connection: Disconnected
+[21:24:17] [Server thread/INFO]: slayerkingston left the game
+[21:24:21] [Server thread/INFO]: Stopping the server
+[21:24:21] [Server thread/INFO]: Stopping server
+[21:24:21] [Server thread/INFO]: Saving players
+[21:24:21] [Server thread/INFO]: Saving worlds
+[21:24:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:24:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:24:21] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:24:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
